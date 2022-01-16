@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/action/imp/DeviceActionImp.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/action/imp/InformationActionImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/app/action/imp/ShopingorderitemActionImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/dao/DeviceDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/web/action/imp/InformationActionImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/standard.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/allinformation.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/deviceClassManage.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/deviceManage.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/editInformation.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/example.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/information.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/jslib" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/jules" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/matrixadmin" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/shopingcart.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/shopingorder.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/shopingorderitem.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/user.jsp" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

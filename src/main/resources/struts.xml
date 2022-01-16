@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="default" extends="struts-default">
+        <!-- 1. DeviceClass的App接口 -->
+        <action name="findAllDeviceClass" class="mydeviceClassAction"
+                method="findAllDeviceClass">
+        </action>
+        <action name="findDeviceClass" class="mydeviceClassAction"
+                method="findDeviceClass">
+        </action>
+        <action name="addDeviceClass" class="mydeviceClassAction" method="addDeviceClass">
+            <result name="success">/addDeviceClassSuccess.jsp</result>
+        </action>
+        <action name="deleteDeviceClass" class="mydeviceClassAction" method="deleteDeviceClass">
+            <result name="success">/deleteDeviceClassSuccess.jsp</result>
+        </action>
+        <action name="updateDeviceClass" class="mydeviceClassAction" method="updateDeviceClass">
+            <result name="success">/updateDeviceClassSuccess.jsp</result>
+        </action>
+        <!-- 2. Device的App接口 -->
+        <action name="findAllDevice" class="mydeviceAction" method="findAllDevice">
+        </action>
+        <action name="findDeviceByDeviceClassId" class="mydeviceAction"
+                method="findDeviceByDeviceClassId">
+        </action>
+        <action name="findDeviceById" class="mydeviceAction" method="findDeviceById">
+        </action>
+        <action name="findDeviceByName" class="mydeviceAction" method="findDeviceByName">
+        </action>
+        <action name="findDeviceByPrice" class="mydeviceAction" method="findDeviceByPrice">
+        </action>
+        <action name="findDeviceByFuzzy" class="mydeviceAction" method="findDeviceByFuzzy">
+        </action>
+        <action name="updateDeviceById" class="mydeviceAction" method="updateDeviceById">
+        </action>
+        <!-- 3.1 Information的App接口 -->
+        <action name="findAllInformation" class="myinformationActionApp" method="findAllInformation">
+        </action>
+        <action name="findInformationById" class="myinformationActionApp" method="findInformationById">
+        </action>
+        <action name="showInformationByIdFromWebPortol" class="myinformationActionApp" method="showInformationByIdFromWebPortol">
+        </action>
+        <action name="showInformationByIdFromAppPortol" class="myinformationActionApp" method="showInformationByIdFromAppPortol">
+        </action>
+        <!-- 3.2 Information的web接口 -->
+        <action name="addInformation" class="myinformationActionWeb"
+                method="addInformation">
+            <result name="success">/addInformationSuccess.jsp</result>
+        </action>
+        <!-- 4. User的App接口 -->
+        <action name="findAllUser" class="myuserAction"
+                method="findAllUser">
+        </action>
+        <action name="findUserById" class="myuserAction"
+                method="findUserById">
+        </action>
+        <action name="loginValidate" class="myuserAction"
+                method="loginValidate">
+        </action>
+        <!-- 5. Shopingorderitem的App接口 -->
+        <action name="findAllShopingorderitem" class="myshopingorderitemAction"
+                method="findAllShopingorderitem">
+        </action>
+        <action name="findShopingorderitemById" class="myshopingorderitemAction"
+                method="findShopingorderitemById">
+        </action>
+        <action name="findShopingorderitemListByShopingorderId" class="myshopingorderitemAction"
+                method="findShopingorderitemListByShopingorderId">
+        </action>
+        <action name="addShopingorderitem" class="myshopingorderitemAction"
+                method="addShopingorderitem">
+            <result name="success">/addShopingorderitemSuccess.jsp</result>
+        </action>
+        <action name="deleteShopingorderitem" class="myshopingorderitemAction"
+                method="deleteShopingorderitem">
+            <result name="success">/deleteShopingorderitemSuccess.jsp</result>
+        </action>
+        <!-- 6. Shopingorder的App接口 -->
+        <action name="findAllShopingorder" class="myshopingorderAction"
+                method="findAllShopingorder">
+        </action>
+        <action name="findShopingorderById" class="myshopingorderAction"
+                method="findShopingorderById">
+        </action>
+        <action name="findShopingorderByUserId" class="myshopingorderAction"
+                method="findShopingorderByUserId">
+        </action>
+        <action name="addShopingorder" class="myshopingorderAction"
+                method="addShopingorder">
+            <result name="success">/addShopingorderSuccess.jsp</result>
+        </action>
+        <action name="deleteShopingorder" class="myshopingorderAction"
+                method="deleteShopingorder">
+            <result name="success">/deleteShopingorderSuccess.jsp</result>
+        </action>
+        <!-- 7. Shopingcart的App接口 -->
+        <action name="findAllShopingcart" class="myshopingcartAction"
+                method="findAllShopingcart">
+        </action>
+        <action name="findShopingcartById" class="myshopingcartAction"
+                method="findShopingcartById">
+        </action>
+        <action name="addShopingcart" class="myshopingcartAction"
+                method="addShopingcart">
+            <result name="success">/addShopingcartSuccess.jsp</result>
+        </action>
+        <action name="deleteShopingcart" class="myshopingcartAction"
+                method="deleteShopingcart">
+            <result name="success">/deleteShopingcartSuccess.jsp</result>
+        </action>
+        <action name="findAllShopingcartByUserId" class="myshopingcartAction"
+                method="findAllShopingcartByUserId">
+        </action>
+        <action name="jiesuanShopingcart" class="myshopingcartAction"
+                method="jiesuanShopingcart">
+            <result name="success">/jiesuanShopingcartSuccess.jsp</result>
+        </action>
+    </package>
+</struts>
